@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+    display: flex;
+}
+
+#left-area {
+    position: relative;
+    width: 33vw;
+    height: 100vh;
+}
+
+#background {
+    width: 33vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#ODIN {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: Norse;
+}
+
+#ODIN-img {
+    height: 16vh;
+    object-fit: cover;
+}
+
+#right-area {
+    width: 67vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(249, 250, 251);
+}
+
+#first {
+    padding: 16vh 24vh 0 4vw;
+    margin: 0 0 48px 0;
+    font-weight: 550;
+}
+
+#form {
+    padding: 4vh 32vh 0 4vw;
+    background-color: white;
+    box-shadow: 1px 1px grey;
+}
+
+#form p {}
+
+#form form {
+    display: flex;
+    gap: 48px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding-bottom: 16px;
+}
+
+label {
+    color: gray;
+    font-weight: lighter;
+    font-size: .7rem;
+    display: block;
+}
+
+input {
+    border: 2px solid #E5E7EB;
+}
+
+input:focus {
+    border: 2px solid lightblue;
+}
+
+#third {
+    padding: 0 0 0 4vh;
+}
+
+#third button {
+    margin: 16px 0 24px 0;
+    padding: 8px 24px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    display: block;
+}
+
+#third p {
+    display: inline;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
